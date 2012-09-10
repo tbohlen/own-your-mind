@@ -1,0 +1,89 @@
+/********************************************************************\
+Project: Own Your Mind
+File: index.css
+Description: Main Style
+Author: Turner Bohlen (www.turnerbohlen.com)
+Created: 09/09/2012
+Copyright 2012 Own Your Mind
+\********************************************************************/
+* {
+    
+}
+
+html {
+    background-color: #97c9ca;
+    font-family: helvetica;
+}
+
+#container {
+    width: 100%;
+}
+
+#bg {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#page {
+    position: relative;
+    margin: auto;
+    width: 1100px;
+}
+
+#text {
+    position: absolute;
+    left: 160px;
+    top: 220px;
+}
+
+#participants {
+    position: absolute;
+    right: 140px;
+    top: 530px;
+    width: 250px;
+}
+
+#title {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h1 {
+    font-size: 90px;
+    color: #cda55c;
+    font-family: futura;
+    margin-bottom: 0px;
+}
+
+p {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 64px;
+    color: #3f607a;
+    margin-left: 4px;
+}
+
+.participant {
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+    margin-bottom: 9px;
+    color: #97c9ca;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.participant:hover {
+    color: #51c7c9;
+}
+
+#participants-label {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #cda55c;
+}
